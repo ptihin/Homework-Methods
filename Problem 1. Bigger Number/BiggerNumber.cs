@@ -8,7 +8,7 @@ namespace Problem_1.Bigger_Number
 {
     class BiggerNumber
     {
-        static int GetMax(int firstNumber, int secondNumber)
+        static int GetMax(int firstNum, int secondNum)
         {
             int biggerNum = Math.Max(firstNumber, secondNumber);
             return biggerNum;
